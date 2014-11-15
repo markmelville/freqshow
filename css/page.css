@@ -1,0 +1,102 @@
+/* color and typography */
+body {
+    font-family:'Lucida Console', Monaco, monospace;
+    font-style:normal;
+    font-size:10pt;
+    color:#eee;
+    background:#444444;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#ccc;
+}
+
+/* layout */
+.row { max-width: 100em; }
+.row.full-width {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* header */
+#header { height: 85px; position: relative; }
+#logo {
+     display: inline-block;
+     position: absolute;
+     right: 0;
+     top: 0;
+     width: 442px;
+     height: 85px;
+     background-image: url("../freqshow.png");
+     background-position-y: -4px;
+     background-position-x: -225px;
+     background-size: 199%;
+     background-repeat: no-repeat;
+ }
+#song-info {
+    display: inline-block;
+    position: absolute;
+    background-color: #2ba6cb;
+    right: 442px;
+    top: 0;
+    height: 85px;
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 23px;
+}
+#time-code { font-size: 64px; margin-left: 50px; vertical-align: top; }
+#audio-data > span { margin-left: 25px;  }
+
+#waveforms { height: 400px; position: relative; }
+#waveforms  > * { position: absolute; }
+#waveform-full { top: 0px; }
+#waveform-zoom { top: 100px; }
+#spectrogram-zoom { top: 250px; }
+#waveforms canvas {
+    display: block;
+    margin-bottom: 5px;
+}
+#lyrics { height: 100px; }
+#lyrics p {
+    font-size: 50px;
+    text-align: center;
+    line-height: 108px;
+}
+
+/* dragging */
+body.dragging {
+    cursor: ew-resize;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+.draggable {
+    cursor: ew-resize;
+}
+
+/*canvas*/
+canvas { background-color: #333; }
+
+.size-12 { font-size: 12px; }
+
+.size-14 { font-size: 14px; }
+
+.size-16 { font-size: 16px; }
+
+.size-18 { font-size: 18px; }
+
+.size-21 { font-size: 21px; }
+
+.size-24 { font-size: 24px; }
+
+.size-36 { font-size: 36px; }
+
+.size-48 { font-size: 48px; }
+
+.size-60 { font-size: 60px; }
+
+.size-72 { font-size: 72px; }
+
+/* svg */
+line.boundary-bar { stroke: "yellow"; }

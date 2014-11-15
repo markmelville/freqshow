@@ -1,0 +1,39 @@
+{
+    "response": {
+        "status": {
+            "version": "4.2",
+            "code": 0,
+            "message": "Success"
+        },
+        "track": {
+            "status": "complete",
+            "song_id": "SOFMDGG12AB01836B9",
+            "title": "One Week",
+            "artist": "Barenaked Ladies",
+            "id": "TRSXRQW149913EE971",
+            "analyzer_version": "3.2.2",
+            "audio_summary": {
+                "time_signature": 4,
+                "tempo": 112.848,
+                "energy": 0.8958835100297268,
+                "liveness": 0.08703254476816576,
+                "analysis_url": "http://echonest-analysis.s3.amazonaws.com/TR/TRSXRQW149913EE971/3/full.json?AWSAccessKeyId=AKIAJRDFEY23UEVW42BQ&Expires=1415483143&Signature=sb606THzykOVF5diyDXFHATGJQ0%3D",
+                "speechiness": 0.037513742335194944,
+                "mode": 1,
+                "acousticness": 0.005589425245391595,
+                "danceability": 0.6969464155878184,
+                "key": 9,
+                "duration": 169.78395,
+                "loudness": -6.029,
+                "valence": 0.698743827764383,
+                "instrumentalness": 0.0001590148029645166
+            },
+            "release": "Stunt",
+            "artist_id": "ARW7K0P1187B9B5B47",
+            "bitrate": 288,
+            "audio_md5": "6064e491760eb6e0584fd57176c2da61",
+            "samplerate": 44100,
+            "md5": "c671e6e0ce7264310b19ce7eedd3730a"
+        }
+    }
+}
